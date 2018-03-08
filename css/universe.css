@@ -1,0 +1,41 @@
+/* ==== SLIDESHOW ==== */
+.cycle-slideshow {
+	margin: 0 auto;
+}
+
+.cycle-slideshow 
+img { 
+	width: 100%; 
+	height: auto;
+}
+.label {
+	color: white;
+	text-shadow:  1px 1px 1px black;
+	text-align: center;
+  	font-size: 1rem;
+	font-weight: 300;
+	padding-top: 4px;
+	line-height: 2.5rem;
+    background: rgba(255, 0, 0, 0.5); /* Red background with 0.5 opacity */
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+
+/* overlay */
+.cycle-overlay { 
+	position: fixed;
+	text-align: right;
+/*    width: 50%;*/
+    top: 200px;
+	right: 60px;
+	z-index: 600;
+}
+
+
+.container-fluid {
+	padding: 0 !important;
+}
+
