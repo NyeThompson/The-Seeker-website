@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 /* ==== SLIDESHOW ==== */
 .cycle-slideshow {
 	margin: 0 auto;
@@ -5,39 +8,34 @@
 
 .cycle-slideshow 
 img { 
-	width: 100%; 
+width: 100%; 
 	height: auto;
+/*		display: block;
+    margin-left: auto;
+    margin-right: auto;*/
 }
+
 .label {
 	color: white;
 	text-shadow:  1px 1px 1px black;
-	font-family: 'Nova Mono', monospace;
 	text-align: center;
   	font-size: 1rem;
 	font-weight: 300;
 	padding-top: 4px;
 	line-height: 2.5rem;
-	border-radius: 0px;
-    background: rgba(255, 0, 0, 0.5); /* Red background with 0.5 opacity */
+    background: rgba(255, 0, 0, 0.5); 
 }
 
-.imgcontainer {
+/*.imgcontainer {
     position: relative;
 }
 
 
-/* overlay */
+ ==== overlay ====  
 .cycle-overlay { 
 	position: fixed;
 	text-align: right;
-/*    width: 50%;*/
     top: 200px;
 	right: 60px;
 	z-index: 600;
 }
-
-
-.container-fluid {
-	padding: 0 !important;
-}
-

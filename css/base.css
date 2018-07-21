@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic|Nova+Mono');
 
 /* UNIVERSAL */
 
@@ -22,19 +22,22 @@ height: 100%;
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
   color: #FFF;
 }
 
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+	    font-weight: 200;
+  	font-family: 'Lato', Helvetica, sans-serif;
 	color: dimgrey
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+font-family: 'Nova Mono', monospace;
+	    font-weight: 200;
 }
 
 h3 {
@@ -54,8 +57,9 @@ h6 {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 200;
+  	font-family: 'Lato', Helvetica, sans-serif;
 }
 
 .font-light {
@@ -84,6 +88,7 @@ a:hover, a:active {
     background-color: rgba(47, 237, 255, 0.6);
 	
 }*/
+
 a:link, a:visited {
 	color: aqua;
 	text-decoration: underline;
@@ -91,9 +96,13 @@ a:link, a:visited {
 
 a:hover {
 	color: white;
-    background-color: aqua;
+    background-color: black;
 }
 
+a.nohover {
+	text-decoration: none;
+	background-color: black;
+}
 
 .homenav{
 	position: relative;
@@ -117,6 +126,13 @@ p.title{
 	letter-spacing: 4px;
 }
 
+
+.grey{
+	color: #9C9C9C;
+
+}
+
+
   div.imagetiles div.col-sm-4{
   padding: 1px;
 
@@ -128,50 +144,38 @@ p.title{
    margin: 0px;
 }
 
-/*.homenav{
-	float: right;
-	padding: 10px 60px;
-}*/
-
-
-/* ==== SLIDESHOW ==== 
-.cycle-slideshow {
-	margin: 0 auto;
-}
-
-.cycle-slideshow 
-img { 
-	width: 100%; 
-	height: auto;
-}
-.label {
-	color: white;
-	text-shadow:  1px 1px 1px black;
-	text-align: center;
-  	font-size: 1rem;
-	font-weight: 300;
-	padding-top: 4px;
-	line-height: 2.5rem;
-    background: rgba(255, 0, 0, 0.5); 
-}
-
-.imgcontainer {
-    position: relative;
-}
-*/
-
-/* ==== overlay ====  
-.cycle-overlay { 
-	position: fixed;
-	text-align: right;
-    top: 200px;
-	right: 60px;
-	z-index: 600;
-}
-
 
 .container-fluid {
 	padding: 0 !important;
 }
 
-*/
+/*Content modules*/
+
+.emptycontentbox {
+	border: 8px double #2B2B2B;
+	background-color: black;
+	border-radius: 200px;
+	height: 200px
+}
+
+.contentbox {
+	border: 10px solid #000;
+	border-radius: 80px;
+	height: 200px
+}
+
+.blackcontentbox {
+	background-color: black;
+	height: 200px
+}
+
+.content-module {
+    font-size: 1.0rem;
+    font-weight: 200;
+	font-family: 'Nova Mono', monospace;
+	margin: 30px 20px;
+}
+
+
+
+
