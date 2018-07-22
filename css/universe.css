@@ -1,3 +1,15 @@
+html,
+body {
+height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+
+
 /* ==== SLIDESHOW ==== */
 .cycle-slideshow {
 	margin: 0 auto;
@@ -18,7 +30,7 @@ img {
 	padding-top: 4px;
 	line-height: 2.5rem;
 	border-radius: 0px;
-    background: rgba(255, 0, 0, 0.5); /* Red background with 0.5 opacity */
+    background: rgba(0, 255, 255, 0.5); /* aqua background with 0.5 opacity */
 }
 
 .imgcontainer {
